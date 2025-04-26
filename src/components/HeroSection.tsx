@@ -4,7 +4,6 @@ import {
   HERO_SUBTITLE,
   COMING_SOON,
 } from '../utils/constants';
-// import SignupForm from './SignupForm';
 
 const HeroSection: React.FC = () => {
   return (
@@ -13,16 +12,12 @@ const HeroSection: React.FC = () => {
         <div className="inline-block mb-4 px-4 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium animate-fade-in">
           {COMING_SOON}
         </div>
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent animate-fade-in-up">
+        <h1 className="text-4xl md:text-6xl leading-snug font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent animate-fade-in-up">
           {HERO_TITLE}
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 mb-10 animate-fade-in-up animation-delay-200">
           {HERO_SUBTITLE}
         </p>
-        {/* <div className="mb-8 animate-fade-in-up animation-delay-400">
-          <p className="text-lg mb-4 text-gray-600">{SIGNUP_TEXT}</p>
-          <SignupForm />
-        </div> */}
         {/* <div className="flex justify-center space-x-4 mt-12 animate-fade-in-up animation-delay-600">
           <a
             href="#"

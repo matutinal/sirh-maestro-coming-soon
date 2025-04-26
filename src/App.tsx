@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import FeaturesPreview from './components/FeaturesPreview';
 import Footer from './components/Footer';
 import AnimatedBackground from './components/AnimatedBackground';
+import EmbedPrototypeForm from './components/EmbedPrototypeForm';
 
 function App() {
   useEffect(() => {
@@ -21,11 +22,12 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white font-sans antialiased">
+    <div className="bg-white font-sans antialiased">
       <AnimatedBackground />
       <Header />
       <main>
         <HeroSection />
+        <EmbedPrototypeForm />
         <FeaturesPreview />
       </main>
       <Footer />

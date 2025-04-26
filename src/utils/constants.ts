@@ -1,12 +1,8 @@
 export const SITE_TITLE = 'SIRH Maestro';
 export const HERO_TITLE = 'Au service de vos projets SIRH';
 export const HERO_SUBTITLE =
-  "Garantissez le sucès de vos projets avec l'aide de notre formifdable assistant propulsé par l'IA";
+  "Garantissez le sucès de vos projets avec l'aide de notre formidable assistant propulsé par l'IA";
 export const COMING_SOON = 'Bientôt disponible';
-export const SIGNUP_TEXT = 'Inscrivez-vous pour être informé du lancement';
-export const SIGNUP_PLACEHOLDER = 'Votre adresse email';
-export const SIGNUP_BUTTON = "S'inscrire";
-export const SIGNUP_SUCCESS = 'Merci! Vous serez informé du lancement.';
 export const FEATURES_TITLE = 'Révolutionnez votre gestion de projets SIRH';
 
 export const FEATURES = [
