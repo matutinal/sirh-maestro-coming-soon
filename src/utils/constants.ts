@@ -14,7 +14,7 @@ export const FEATURES = [
     id: 1,
     title: 'Chatbot expert',
     description:
-      'Posez toutes vos questions, lancez et approfondissez la réflexion.',
+      'Posez toutes vos questions, lancez et approfondissez la réflexion. Un expert vous répond !',
   },
   {
     id: 2,
