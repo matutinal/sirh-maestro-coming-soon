@@ -44,8 +44,8 @@ const SignupForm: React.FC = () => {
     console.log('Email submitted:', email);
     setSubmitted(true);
     setEmail('');
-    // Reset the submitted state after 5 seconds
-    setTimeout(() => setSubmitted(false), 5000);
+    // Reset the submitted state after 10 seconds
+    setTimeout(() => setSubmitted(false), 10000);
   };
 
   return (

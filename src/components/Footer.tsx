@@ -11,14 +11,14 @@ const Footer: React.FC = () => {
             <Brain className="h-6 w-6 text-indigo-600 mr-2" />
             <span className="font-medium text-gray-800">{SITE_TITLE}</span>
           </div>
-          <div className="flex space-x-6 text-sm">
+          {/* <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors">
               {PRIVACY_POLICY}
             </a>
             <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors">
               {TERMS_OF_SERVICE}
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="mt-6 text-center text-sm text-gray-500">
           {FOOTER_TEXT}

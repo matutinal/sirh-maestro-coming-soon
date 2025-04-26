@@ -1,15 +1,15 @@
 import React from 'react';
 import { FEATURES, FEATURES_TITLE } from '../utils/constants';
-import { BrainCircuit, Users, TrendingUp, Heart } from 'lucide-react';
+import { BrainCircuit, Heart, FilePenLine, Megaphone } from 'lucide-react';
 
 const getIconForFeature = (id: number) => {
   switch (id) {
     case 1: 
       return <BrainCircuit className="h-10 w-10 text-indigo-600" />;
     case 2: 
-      return <TrendingUp className="h-10 w-10 text-indigo-600" />;
+      return <FilePenLine className="h-10 w-10 text-indigo-600" />;
     case 3: 
-      return <Users className="h-10 w-10 text-indigo-600" />;
+      return <Megaphone className="h-10 w-10 text-indigo-600" />;
     case 4: 
       return <Heart className="h-10 w-10 text-indigo-600" />;
     default: 
