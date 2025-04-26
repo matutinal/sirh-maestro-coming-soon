@@ -3,12 +3,12 @@ import { ChevronsDown } from 'lucide-react';
 const Scroll = () => {
   const handleScroll = () => {
     const header = document.querySelector('header');
-    const embedElement = document.getElementById('embed');
+    const targetElement = document.getElementById('prototype-button-container');
     
-    if (header && embedElement) {
+    if (header?.offsetHeight && targetElement) {
       const headerHeight = header.offsetHeight;
-      const elementPosition = embedElement.getBoundingClientRect().top + window.scrollY;
-      const offsetPosition = elementPosition - headerHeight;
+      const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = Math.max(elementPosition - headerHeight, 0);
 
       window.scrollTo({
         top: offsetPosition,

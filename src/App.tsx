@@ -3,7 +3,6 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FeaturesPreview from './components/FeaturesPreview';
 import Footer from './components/Footer';
-import AnimatedBackground from './components/AnimatedBackground';
 import EmbedPrototypeForm from './components/EmbedPrototypeForm';
 
 function App() {
@@ -17,13 +16,12 @@ function App() {
     ) as HTMLLinkElement;
     if (favicon) {
       favicon.href =
-        'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%234F46E5"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-5-7h2a3 3 0 0 0 6 0h2a5 5 0 0 1-10 0z"/></svg>';
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXJhZGFyLWljb24gbHVjaWRlLXJhZGFyIj48cGF0aCBkPSJNMTkuMDcgNC45M0ExMCAxMCAwIDAgMCA2Ljk5IDMuMzQiLz48cGF0aCBkPSJNNCA2aC4wMSIvPjxwYXRoIGQ9Ik0yLjI5IDkuNjJBMTAgMTAgMCAxIDAgMjEuMzEgOC4zNSIvPjxwYXRoIGQ9Ik0xNi4yNCA3Ljc2QTYgNiAwIDEgMCA4LjIzIDE2LjY3Ii8+PHBhdGggZD0iTTEyIDE4aC4wMSIvPjxwYXRoIGQ9Ik0xNy45OSAxMS42NkE2IDYgMCAwIDEgMTUuNzcgMTYuNjciLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIyIi8+PHBhdGggZD0ibTEzLjQxIDEwLjU5IDUuNjYtNS42NiIvPjwvc3ZnPg==';
     }
   }, []);
-
+  
   return (
     <div className="bg-white font-sans antialiased">
-      <AnimatedBackground />
       <Header />
       <main>
         <HeroSection />

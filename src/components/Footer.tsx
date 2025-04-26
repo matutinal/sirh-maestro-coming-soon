@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain } from 'lucide-react';
+import { Radar } from 'lucide-react';
 import { SITE_TITLE, FOOTER_TEXT, PRIVACY_POLICY, TERMS_OF_SERVICE } from '../utils/constants';
 
 const Footer: React.FC = () => {
@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <Brain className="h-6 w-6 text-indigo-600 mr-2" />
+          <Radar className="h-8 w-8 text-indigo-600 mr-2" />
             <span className="font-medium text-gray-800">{SITE_TITLE}</span>
           </div>
           {/* <div className="flex space-x-6 text-sm">
