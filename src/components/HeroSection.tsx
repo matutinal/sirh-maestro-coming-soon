@@ -3,7 +3,6 @@ import {
   HERO_TITLE,
   HERO_SUBTITLE,
   COMING_SOON,
-  SIGNUP_TEXT,
 } from '../utils/constants';
 // import SignupForm from './SignupForm';
 
@@ -24,7 +23,7 @@ const HeroSection: React.FC = () => {
           <p className="text-lg mb-4 text-gray-600">{SIGNUP_TEXT}</p>
           <SignupForm />
         </div> */}
-        <div className="flex justify-center space-x-4 mt-12 animate-fade-in-up animation-delay-600">
+        {/* <div className="flex justify-center space-x-4 mt-12 animate-fade-in-up animation-delay-600">
           <a
             href="#"
             className="text-gray-600 hover:text-indigo-600 transition-colors"
@@ -53,7 +52,7 @@ const HeroSection: React.FC = () => {
               <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.128 10.128 0 01-3.26 1.208c-.935-1.01-2.267-1.64-3.743-1.64-2.833 0-5.15 2.3-5.15 5.133 0 .4.047.8.136 1.18-4.145-.2-7.826-2.2-10.304-5.22-.43.742-.678 1.6-.678 2.525 0 1.753.89 3.3 2.24 4.21-.83-.026-1.614-.255-2.3-.636v.064c0 2.454 1.743 4.51 4.077 4.976-.428.115-.877.173-1.34.173-.33 0-.65-.033-.97-.095a5.165 5.165 0 004.812 3.576 10.335 10.335 0 01-6.4 2.203c-.42 0-.825-.025-1.23-.075a14.537 14.537 0 007.875 2.3c9.448 0 14.625-7.813 14.625-14.625 0-.22-.005-.44-.015-.66a10.54 10.54 0 002.58-2.67l-.047-.02z" />
             </svg>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
