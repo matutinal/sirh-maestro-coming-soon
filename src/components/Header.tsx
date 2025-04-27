@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           <a href="#features" className="text-gray-700 hover:text-indigo-600 transition-colors">
             Fonctionnalités
           </a>
-          <a href="#embed" className="text-gray-700 hover:text-indigo-600 transition-colors">
+          <a href="#prototype" className="text-gray-700 hover:text-indigo-600 transition-colors">
             Prototype
           </a>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import { FEATURES, FEATURES_TITLE } from '../utils/constants';
-import { BrainCircuit, Heart, FilePenLine, Megaphone } from 'lucide-react';
+import { FEATURES, FEATURES_TITLE, COMING_SOON } from '../utils/constants';
+import { BrainCircuit, Heart, FilePenLine, ScanSearch } from 'lucide-react';
 
 const getIconForFeature = (id: number) => {
   switch (id) {
@@ -9,7 +9,7 @@ const getIconForFeature = (id: number) => {
     case 2: 
       return <FilePenLine className="h-10 w-10 text-indigo-600" />;
     case 3: 
-      return <Megaphone className="h-10 w-10 text-indigo-600" />;
+      return <ScanSearch className="h-10 w-10 text-indigo-600" />;
     case 4: 
       return <Heart className="h-10 w-10 text-indigo-600" />;
     default: 
@@ -24,6 +24,11 @@ const FeaturesPreview: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
           {FEATURES_TITLE}
         </h2>
+        <div className="flex justify-center mb-8">
+          <div className="inline-block mb-4 px-4 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium animate-fade-in">
+            {COMING_SOON}
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {FEATURES.map((feature) => (
             <div 

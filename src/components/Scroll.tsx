@@ -3,7 +3,7 @@ import { ChevronsDown } from 'lucide-react';
 const Scroll = () => {
   const handleScroll = () => {
     const header = document.querySelector('header');
-    const targetElement = document.getElementById('prototype-button-container');
+    const targetElement = document.getElementById('prototype');
     
     if (header?.offsetHeight && targetElement) {
       const headerHeight = header.offsetHeight;

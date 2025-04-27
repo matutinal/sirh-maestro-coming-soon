@@ -1,33 +1,33 @@
 export const SITE_TITLE = 'SIRH ℳaestro';
 export const HERO_TITLE = 'Au service de vos projets SIRH';
 export const HERO_SUBTITLE =
-  "Garantissez le succès de vos projets avec l'aide de notre formidable assistant propulsé par lʼIA";
+  "Garantissez le succès de vos projets avec lʼappui de notre formidable assistant propulsé par lʼIA";
 export const COMING_SOON = 'Bientôt disponible';
-export const FEATURES_TITLE = 'Révolutionnez votre gestion de projets SIRH';
+export const FEATURES_TITLE = 'Révolutionnez la gestion de vos projets SIRH';
 
 export const FEATURES = [
   {
     id: 1,
-    title: 'Chatbot expert',
+    title: 'Chatbot expert SIRH',
     description:
-      'Posez toutes vos questions, lancez et approfondissez la réflexion : un expert vous répond !',
+      'Posez toutes vos questions, lancez et approfondissez la réflexion : un expert vous répond\u00a0!',
   },
   {
     id: 2,
-    title: "Génération dʼappel dʼoffres",
+    title: "Rédaction impeccable de tout document",
     description:
-      'Automatisez cette étape fastidieuse et rendez là carrément enthousiasmante.',
+      'Automatisez les tâches fastidieuses, avec votre culture et vos modèles.',
   },
   {
     id: 3,
-    title: 'Génération de Kit de communication interne',
-    description: 'Optimisez la communication auprès de vos équipes.',
+    title: 'Décodeur des offres du marché',
+    description: 'Naviguez sur les océans des possibilités avec un skipper fiable, sʼadaptant à votre contexte.',
   },
   {
     id: 4,
-    title: 'Pensez à vous !',
+    title: 'Et surtout, pensez à vous !',
     description:
-      "Profitez dʼune technologie innovante et gardez du temps pour lʼessentiel.",
+      "Profitez dʼune technologie innovante et gardez du temps pour lʼessentiel, tout en détente.",
   },
 ];
 

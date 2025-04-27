@@ -2,7 +2,6 @@ import React from 'react';
 import {
   HERO_TITLE,
   HERO_SUBTITLE,
-  COMING_SOON,
 } from '../utils/constants';
 import { SITE_TITLE } from '../utils/constants';
 import Scroll from './Scroll';
@@ -17,10 +16,7 @@ const HeroSection: React.FC = () => {
             {SITE_TITLE}
           </span>
           </div>
-          <div className="inline-block mb-4 px-4 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium animate-fade-in">
-            {COMING_SOON}
-          </div>
-          <h1 className="text-4xl md:text-6xl leading-snug font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent animate-fade-in-up">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent animate-fade-in-up">
             {HERO_TITLE}
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-10 animate-fade-in-up animation-delay-200">
